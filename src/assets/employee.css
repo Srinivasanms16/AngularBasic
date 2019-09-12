@@ -1,0 +1,6 @@
+table,th,tr,td{
+    font-weight: bold;
+    color: blue;
+    font-style:bold;
+    border: 1px solid black;
+}

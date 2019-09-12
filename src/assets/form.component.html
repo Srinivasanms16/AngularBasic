@@ -1,0 +1,8 @@
+<p>we should use ngForm tag !</p>
+<div>
+    <label [innerText]='enterbook'></label> 
+    <input [(ngModel)]='bookName' type="text" /> <br><br>
+    <label [innerText]='enterauthor'></label> 
+    <input [(ngModel)]='authorName' type="text" /> <br><br>
+    <button (click)='onSubmit()'>Submit</button>
+</div>

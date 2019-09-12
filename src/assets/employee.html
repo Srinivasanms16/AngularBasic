@@ -1,0 +1,24 @@
+<table>
+<thead>
+    <th>
+        name 
+    </th>
+    <th>
+        code
+    </th>
+    <th>
+        salary
+    </th>
+    <th>
+        date of joining
+    </th>
+</thead>
+<tbody>
+    <tr *ngFor="let e of employee" >
+        <td> {{e.name| uppercase}} </td>
+        <td> {{e.code}} </td>
+        <td> {{e.salary | currency:'USD':true:'1.3-4'  }} </td>
+        <td> {{e.dateofjoining | date:'dd/MM/yyyy' }} </td>
+    </tr>
+</tbody>
+</table>
